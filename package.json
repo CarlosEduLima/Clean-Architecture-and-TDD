@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "standard": {
-    "env":["jest"]
+    "env": [ "jest" ]
   },
   "repository": {
     "type": "git",
