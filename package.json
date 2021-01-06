@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/CarlosEduLima/Clean-Architecture-and-TDD/issues"
   },
-  "homepage": "https://github.com/CarlosEduLima/Clean-Architecture-and-TDD#readme"
+  "homepage": "https://github.com/CarlosEduLima/Clean-Architecture-and-TDD#readme",
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
 }
