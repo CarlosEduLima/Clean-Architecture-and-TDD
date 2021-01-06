@@ -6,6 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "lint-staged": {
+    "*js": [
+      "standard --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CarlosEduLima/Clean-Architecture-and-TDD.git"
@@ -17,6 +28,7 @@
   },
   "homepage": "https://github.com/CarlosEduLima/Clean-Architecture-and-TDD#readme",
   "devDependencies": {
+    "lint-staged": "^10.5.3",
     "standard": "^16.0.3"
   }
 }
