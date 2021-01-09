@@ -4,10 +4,13 @@
   "description": "Node API using clean architecture concepts, Test-driven development (TDD) and Typescript",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll",
+    "test:staged": "jest"
   },
   "standard": {
-    "env": [ "jest" ]
+    "env": [
+      "jest"
+    ]
   },
   "repository": {
     "type": "git",
